@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('contact', 'ContactController@showContactForm');
+Route::post('contact', 'ContactController@contact');
