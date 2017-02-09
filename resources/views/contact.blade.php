@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+	<style>
+		body {
+			padding-top: 100px;
+		}
+	</style>
 </head>
 <body>
-<div class="jumbotron">
-	<div class="text-center">
-		<h1>Contact us</h1>
-	</div>
-</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">

@@ -13,6 +13,14 @@ class ContactController extends Controller
 
     public function contact(Request $request)
     {
-    	dd($request->all());
+    	$rules = [
+    		'name' => 'required',
+    		'email' => 'required|email',
+    		'message' => 'required|min:5',
+    	];
+
+    	$this->validate($request, $rules);
+
+    	return back()->with('status', 'Your message has been received, We will get back to you shortly.');
     }
 }
